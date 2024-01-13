@@ -57,7 +57,7 @@ export default async function handler(request: NextRequest) {
         </div>
         <div
           style={{
-            fontSize: '3.5rem',
+            fontSize: '3.8rem',
             fontFamily: 'MontserratBold',
             display: 'flex',
             justifyContent: 'center',
@@ -69,6 +69,8 @@ export default async function handler(request: NextRequest) {
           <p
             style={{
               margin: 0,
+              lineClamp: 3,
+              display: 'block',
             }}
           >
             {title}

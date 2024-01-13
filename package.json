@@ -1,24 +1,17 @@
 {
-  "name": "vercel-og-nextjs",
-  "repository": "https://github.com/vercel/examples.git",
-  "license": "MIT",
-  "private": true,
+  "name": "til-opengraph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@vercel/og": "latest",
-    "next": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
-  "devDependencies": {
-    "@types/node": "^18.15.5",
-    "@types/react": "^18.0.28",
-    "turbo": "^1.8.5",
-    "typescript": "^4.9.5"
+    "@types/react": "^18.2.47",
+    "@vercel/og": "^0.6.2",
+    "react": "^18.2.0"
   }
 }

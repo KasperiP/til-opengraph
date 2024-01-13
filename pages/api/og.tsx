@@ -35,7 +35,7 @@ export default async function handler(request: NextRequest) {
           background: '#fef08a',
           width: '100%',
           height: '100%',
-          padding: '4rem',
+          padding: '2rem 4rem',
           fontFamily: 'Montserrat',
           color: '#202125',
         }}
@@ -48,7 +48,7 @@ export default async function handler(request: NextRequest) {
         >
           <h2
             style={{
-              fontSize: '3rem',
+              fontSize: '3.5rem',
             }}
           >
             <span style={{ fontFamily: 'MontserratBold' }}>TIL</span> Today I
@@ -57,7 +57,7 @@ export default async function handler(request: NextRequest) {
         </div>
         <div
           style={{
-            fontSize: '3.8rem',
+            fontSize: '4.5rem',
             fontFamily: 'MontserratBold',
             display: 'flex',
             justifyContent: 'center',
@@ -119,12 +119,12 @@ export default async function handler(request: NextRequest) {
                 style={{
                   margin: 0,
                   fontFamily: 'MontserratBold',
-                  fontSize: '2rem',
+                  fontSize: '2.8rem',
                 }}
               >
                 {author}
               </h3>
-              <p style={{ margin: 0, fontSize: '1.5rem' }}>
+              <p style={{ margin: 0, fontSize: '2rem' }}>
                 {' '}
                 Published: {published}
               </p>

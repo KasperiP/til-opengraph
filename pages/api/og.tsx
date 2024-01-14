@@ -32,12 +32,15 @@ export default async function handler(request: NextRequest) {
           display: 'flex',
           flexDirection: 'column',
           justifyContent: 'space-between',
-          background: '#fef08a',
+          background: '#f5f5f5',
           width: '100%',
           height: '100%',
           padding: '2rem 4rem',
           fontFamily: 'Montserrat',
           color: '#202125',
+          backgroundImage:
+            'radial-gradient(circle at 25px 25px, #ebebeb 5%, transparent 0%), radial-gradient(circle at 75px 75px, #ebebeb 10%, transparent 0%)',
+          backgroundSize: '200px 200px',
         }}
       >
         <div

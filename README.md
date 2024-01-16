@@ -1,3 +1,18 @@
+<img src="til-opengraph.png" alt="Kide.rat logo">
+<br />
+<br />
+
+<div align="center">
+  
+## Today I Learned - OpenGraph
+Today I Learned is an open-source platform for you to share your daily learning. It can be anything, from a new word you learned, a new skill you picked up, or even a new life lesson you learned. The possibilities are endless!
+#### Project repositories
+[![OpenGraph](https://img.shields.io/badge/OpenGraph-bfdbfe)](https://github.com/KasperiP/til-opengraph)
+[![Frontend Repository](https://img.shields.io/badge/Frontend-bbf7d0)](https://github.com/KasperiP/til-frontend)
+[![Frontend Repository](https://img.shields.io/badge/Brontend-fef08a)](https://github.com/KasperiP/til-backend)
+
+</div>
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
